@@ -3,7 +3,7 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 SET (CMAKE_VERBOSE_MAKEFILE OFF)
 include (stm32.cmake)
 
-PROJECT (robot1)
+PROJECT (robot-firmware)
 
 SET(USB_LIB "" CACHE STRING "")
 
